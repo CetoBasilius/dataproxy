@@ -1,2 +1,1 @@
-# dataproxy
-Add Lua userdata index capability
+# dataproxy.*### Overview---Add index capabilities to *userdata* to use userdata as if it were a table---Copyright (c) 2018, Basilio GermánAll rights reserved.
