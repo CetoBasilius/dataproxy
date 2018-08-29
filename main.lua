@@ -8,7 +8,9 @@ local function networkListener(event)
 	
 	print(proxy.something)
 	
-	dataproxy.remove(handle)
+	if dataproxy.remove(handle) then
+		print("found and removed proxy")
+	end
 end
 
 local handle1 = network.request("http://127.0.0.1/", "GET", networkListener)
